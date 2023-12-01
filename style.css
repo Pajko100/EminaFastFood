@@ -79,3 +79,12 @@
     color: black;
   }
 
+  .container {
+    background-color: #bbe1fa;
+    overflow: hidden;
+}
+
+.col-sm-4 {
+    background-color: #bbe1fa;
+    overflow: hidden;
+}
