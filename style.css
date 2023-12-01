@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 #slider {
     overflow: hidden;
 }
@@ -72,3 +78,4 @@
   a {
     color: black;
   }
+
