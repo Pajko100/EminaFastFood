@@ -22,3 +22,19 @@ const navSlide = () => {
 }
 
 navSlide();
+
+
+        function show() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('image')
+                .style.display = "block";
+            document.getElementById('btnID')
+                .style.display = "none";
+        }
+        
+        const showImageButton = document.getElementById("show-image-button");
+        const myImage = document.getElementById("my-image"); 
+        showImageButton.addEventListener("click", () => { 
+           myImage.style.display = "block"; 
+        });
